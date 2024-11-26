@@ -27,8 +27,8 @@ Before starting, you'll need:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/TONsolutions/telemetree-nodejs-example.git
-   cd telemetree-nodejs-example
+   git clone https://github.com/TONsolutions/telemetree-node-example.git
+   cd telemetree-node-example
    ```
 
 2. Install dependencies:
