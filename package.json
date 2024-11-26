@@ -1,14 +1,14 @@
 {
   "name": "telemetree-sample-bot",
   "version": "1.0.0",
-  "description": "Sample Telegram bot using Telemetree tracking",
+  "description": "Sample NodeJS Telegram bot using Telemetree tracking",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
+    "@tonsolutions/telemetree-node": "^0.2.5",
     "dotenv": "^16.3.1",
-    "node-telegram-bot-api": "^0.64.0",
-    "telemetree": "file:../"
+    "node-telegram-bot-api": "^0.64.0"
   }
 }

@@ -4,7 +4,17 @@ This repository demonstrates how to integrate the Telemetree tracking SDK into a
 
 ## What is Telemetree?
 
-Telemetree is a privacy-first analytics platform that helps you track user interactions while ensuring data security through end-to-end encryption.
+Telemetree is a comprehensive free analytics tool designed specifically for Telegram Mini Apps. With our SDKs, developers, marketers, and product managers can easily track and optimize user engagement, making data-driven decisions to boost user acquisition and retention. Telemetree simplifies Analytics for Telegram Mini Apps by delivering insights into user behaviors, acquisition channels, and in-app interactions.
+
+## Resources
+Consider visiting our resources for more info about the state of the Telegram Mini Apps ecosystem and Telegram analytics.
+
+- [Website](https://www.telemetree.io/)
+- [Twitter](https://x.com/telemetree_HQ)
+- [Telegram channel](https://t.me/telemetree_en)
+- [LinkedIn](https://linkedin.com/company/telemetree)
+- [Medium](https://medium.com/@telemetree)
+- [Documentation](https://docs.telemetree.io/)
 
 ## Prerequisites
 
@@ -17,7 +27,7 @@ Before starting, you'll need:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/telemetree-nodejs-example.git
+   git clone https://github.com/TONsolutions/telemetree-nodejs-example.git
    cd telemetree-nodejs-example
    ```
 
@@ -34,7 +44,7 @@ Before starting, you'll need:
    ```
    TELEGRAM_BOT_TOKEN=your_bot_token
    TELEMETREE_API_KEY=your_api_key
-   TELEMETREE_PUBLIC_KEY=your_public_key
+   TELEMETREE_PROJECT_ID=your_project_id
    ```
 
 ## SDK Integration Guide
@@ -42,11 +52,11 @@ Before starting, you'll need:
 ### 1. Initialize Telemetree Client
 
 ```javascript
-const { TelemetreeClient } = require('@telemetree/sdk');
+const { TelemetreeClient } = require('@tonsolutions/telemetree-node');
 
 const telemetree = new TelemetreeClient({
   apiKey: process.env.TELEMETREE_API_KEY,
-  publicKey: process.env.TELEMETREE_PUBLIC_KEY
+  publicKey: process.env.TELEMETREE_PROJECT_ID,
 });
 
 await telemetree.initialize();
@@ -157,9 +167,9 @@ await telemetree.trackBatch([
 ]);
 ```
 
-## Support
-
-For more information about Telemetree SDK:
-- [Official Documentation](https://docs.telemetree.com)
-- [API Reference](https://docs.telemetree.com/api)
-- [Support Portal](https://support.telemetree.com)
+## Other SDKs
+Telemetree SDKs are available for various frameworks and environments, making it easy to incorporate powerful analytics into any Telegram Mini App.
+- React SDK: https://github.com/TONSolutions/telemetree-react
+- Javascript integration: https://github.com/TONSolutions/telemetree-pixel
+- Python SDK: https://github.com/TONSolutions/telemetree-python
+- .NET SDK: https://github.com/MANABbl4/Telemetree.Net (community-supported)
