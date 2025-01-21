@@ -27,7 +27,7 @@ Before starting, you'll need:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/TONsolutions/telemetree-node-example.git
+   git clone https://github.com/Telemetree/telemetree-node-example.git
    cd telemetree-node-example
    ```
 
@@ -169,7 +169,7 @@ await telemetree.trackBatch([
 
 ## Other SDKs
 Telemetree SDKs are available for various frameworks and environments, making it easy to incorporate powerful analytics into any Telegram Mini App.
-- React SDK: https://github.com/TONSolutions/telemetree-react
-- Javascript integration: https://github.com/TONSolutions/telemetree-pixel
-- Python SDK: https://github.com/TONSolutions/telemetree-python
+- React SDK: https://github.com/Telemetree/telemetree-react
+- Javascript integration: https://github.com/Telemetree/telemetree-pixel
+- Python SDK: https://github.com/Telemetree/telemetree-python
 - .NET SDK: https://github.com/MANABbl4/Telemetree.Net (community-supported)
